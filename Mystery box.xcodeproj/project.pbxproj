@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		631621AC2BDE2BBA00857865 /* OverlayStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631621AB2BDE2BBA00857865 /* OverlayStage.swift */; };
+		6318704D2BD7F6CE00AEC68C /* Foot Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6318704C2BD7F6CE00AEC68C /* Foot Step.swift */; };
+		631A2E672BD6B59D0020ADC6 /* Mystery_boxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631A2E662BD6B59D0020ADC6 /* Mystery_boxApp.swift */; };
+		631A2E692BD6B59D0020ADC6 /* Park Bench.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631A2E682BD6B59D0020ADC6 /* Park Bench.swift */; };
+		631A2E6D2BD6B59E0020ADC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 631A2E6C2BD6B59E0020ADC6 /* Assets.xcassets */; };
+		631A2E702BD6B59E0020ADC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 631A2E6F2BD6B59E0020ADC6 /* Preview Assets.xcassets */; };
+		631A2E7A2BD6B59E0020ADC6 /* Mystery_boxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631A2E792BD6B59E0020ADC6 /* Mystery_boxTests.swift */; };
+		631A2E842BD6B59E0020ADC6 /* Mystery_boxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631A2E832BD6B59E0020ADC6 /* Mystery_boxUITests.swift */; };
+		631A2E862BD6B59E0020ADC6 /* Mystery_boxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631A2E852BD6B59E0020ADC6 /* Mystery_boxUITestsLaunchTests.swift */; };
+		63279FB12BDD21970091CF92 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63279FB02BDD21970091CF92 /* LottieView.swift */; };
+		63279FB92BDD23700091CF92 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 63279FB82BDD23700091CF92 /* Lottie */; };
+		63279FBB2BDD23AB0091CF92 /* TryLottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63279FBA2BDD23AB0091CF92 /* TryLottie.swift */; };
+		63279FBE2BDD2B390091CF92 /* star.json in Resources */ = {isa = PBXBuildFile; fileRef = 63279FBD2BDD2B390091CF92 /* star.json */; };
+		634538EB2BDF57C20069CBD9 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634538EA2BDF57C20069CBD9 /* SoundManager.swift */; };
+		634538ED2BDF59420069CBD9 /* sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 634538EC2BDF59420069CBD9 /* sample.mp3 */; };
+		6350B9122BE334120080419A /* LongPressSlowed2.json in Resources */ = {isa = PBXBuildFile; fileRef = 6350B9112BE334120080419A /* LongPressSlowed2.json */; };
+		6350B9162BE33FB40080419A /* tiltGesture.json in Resources */ = {isa = PBXBuildFile; fileRef = 6350B9152BE33FB40080419A /* tiltGesture.json */; };
+		6350B9182BE340070080419A /* dragGesture.json in Resources */ = {isa = PBXBuildFile; fileRef = 6350B9172BE340070080419A /* dragGesture.json */; };
+		6368186C2BDA8F4A007963E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368186B2BDA8F4A007963E2 /* ContentView.swift */; };
+		6376143F2BDFE1CF00DC4DC3 /* gameSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6376143E2BDFE1CF00DC4DC3 /* gameSound.mp3 */; };
+		637614412BDFE29400DC4DC3 /* unlucky.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 637614402BDFE29400DC4DC3 /* unlucky.mp3 */; };
+		637614432BDFE3CB00DC4DC3 /* slowMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 637614422BDFE3CB00DC4DC3 /* slowMusic.mp3 */; };
+		6378FC102BDEAD8E00D3BC12 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6378FC0F2BDEAD8E00D3BC12 /* MainView.swift */; };
+		638AE8592BDB549800741E51 /* gameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638AE8582BDB549800741E51 /* gameOver.swift */; };
+		639FD47A2BDC071E002EF927 /* Money Pocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639FD4792BDC071E002EF927 /* Money Pocket.swift */; };
+		63C6422E2BDA8B440096A371 /* GlobalLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C6422D2BDA8B440096A371 /* GlobalLogic.swift */; };
+		63C9E1C52BE09FF3005F2836 /* lucky.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63C9E1C42BE09FF3005F2836 /* lucky.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		631A2E762BD6B59E0020ADC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631A2E5B2BD6B59D0020ADC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 631A2E622BD6B59D0020ADC6;
+			remoteInfo = "Mystery box";
+		};
+		631A2E802BD6B59E0020ADC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631A2E5B2BD6B59D0020ADC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 631A2E622BD6B59D0020ADC6;
+			remoteInfo = "Mystery box";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		631621AB2BDE2BBA00857865 /* OverlayStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayStage.swift; sourceTree = "<group>"; };
+		6318704C2BD7F6CE00AEC68C /* Foot Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foot Step.swift"; sourceTree = "<group>"; };
+		631A2E632BD6B59D0020ADC6 /* Lucky Meter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lucky Meter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		631A2E662BD6B59D0020ADC6 /* Mystery_boxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mystery_boxApp.swift; sourceTree = "<group>"; };
+		631A2E682BD6B59D0020ADC6 /* Park Bench.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Park Bench.swift"; sourceTree = "<group>"; };
+		631A2E6C2BD6B59E0020ADC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		631A2E6F2BD6B59E0020ADC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		631A2E752BD6B59E0020ADC6 /* Mystery boxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mystery boxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		631A2E792BD6B59E0020ADC6 /* Mystery_boxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mystery_boxTests.swift; sourceTree = "<group>"; };
+		631A2E7F2BD6B59E0020ADC6 /* Mystery boxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mystery boxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		631A2E832BD6B59E0020ADC6 /* Mystery_boxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mystery_boxUITests.swift; sourceTree = "<group>"; };
+		631A2E852BD6B59E0020ADC6 /* Mystery_boxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mystery_boxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63279FB02BDD21970091CF92 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		63279FBA2BDD23AB0091CF92 /* TryLottie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryLottie.swift; sourceTree = "<group>"; };
+		63279FBD2BDD2B390091CF92 /* star.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = star.json; sourceTree = "<group>"; };
+		634538EA2BDF57C20069CBD9 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		634538EC2BDF59420069CBD9 /* sample.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sample.mp3; sourceTree = "<group>"; };
+		6350B9112BE334120080419A /* LongPressSlowed2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LongPressSlowed2.json; sourceTree = "<group>"; };
+		6350B9152BE33FB40080419A /* tiltGesture.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tiltGesture.json; sourceTree = "<group>"; };
+		6350B9172BE340070080419A /* dragGesture.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dragGesture.json; sourceTree = "<group>"; };
+		6368186B2BDA8F4A007963E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6376143E2BDFE1CF00DC4DC3 /* gameSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameSound.mp3; sourceTree = "<group>"; };
+		637614402BDFE29400DC4DC3 /* unlucky.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = unlucky.mp3; sourceTree = "<group>"; };
+		637614422BDFE3CB00DC4DC3 /* slowMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = slowMusic.mp3; sourceTree = "<group>"; };
+		6378FC0F2BDEAD8E00D3BC12 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		638AE8582BDB549800741E51 /* gameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameOver.swift; sourceTree = "<group>"; };
+		639FD4792BDC071E002EF927 /* Money Pocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Money Pocket.swift"; sourceTree = "<group>"; };
+		63C6422D2BDA8B440096A371 /* GlobalLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalLogic.swift; sourceTree = "<group>"; };
+		63C9E1C42BE09FF3005F2836 /* lucky.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lucky.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		631A2E602BD6B59D0020ADC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63279FB92BDD23700091CF92 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631A2E722BD6B59E0020ADC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631A2E7C2BD6B59E0020ADC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		631A2E5A2BD6B59D0020ADC6 = {
+			isa = PBXGroup;
+			children = (
+				631A2E652BD6B59D0020ADC6 /* Mystery box */,
+				631A2E782BD6B59E0020ADC6 /* Mystery boxTests */,
+				631A2E822BD6B59E0020ADC6 /* Mystery boxUITests */,
+				631A2E642BD6B59D0020ADC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		631A2E642BD6B59D0020ADC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				631A2E632BD6B59D0020ADC6 /* Lucky Meter.app */,
+				631A2E752BD6B59E0020ADC6 /* Mystery boxTests.xctest */,
+				631A2E7F2BD6B59E0020ADC6 /* Mystery boxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		631A2E652BD6B59D0020ADC6 /* Mystery box */ = {
+			isa = PBXGroup;
+			children = (
+				631A2E662BD6B59D0020ADC6 /* Mystery_boxApp.swift */,
+				6368186D2BDA9B7A007963E2 /* Game */,
+				6368186B2BDA8F4A007963E2 /* ContentView.swift */,
+				6378FC0E2BDEAD0C00D3BC12 /* Home, Result, Overlay */,
+				635F06052BDA9C24002F3A30 /* Logic */,
+				631A2E6C2BD6B59E0020ADC6 /* Assets.xcassets */,
+				634538EE2BDF594B0069CBD9 /* Sound */,
+				63279FBC2BDD26B60091CF92 /* Lottie */,
+				631A2E6E2BD6B59E0020ADC6 /* Preview Content */,
+			);
+			path = "Mystery box";
+			sourceTree = "<group>";
+		};
+		631A2E6E2BD6B59E0020ADC6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				631A2E6F2BD6B59E0020ADC6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		631A2E782BD6B59E0020ADC6 /* Mystery boxTests */ = {
+			isa = PBXGroup;
+			children = (
+				631A2E792BD6B59E0020ADC6 /* Mystery_boxTests.swift */,
+			);
+			path = "Mystery boxTests";
+			sourceTree = "<group>";
+		};
+		631A2E822BD6B59E0020ADC6 /* Mystery boxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				631A2E832BD6B59E0020ADC6 /* Mystery_boxUITests.swift */,
+				631A2E852BD6B59E0020ADC6 /* Mystery_boxUITestsLaunchTests.swift */,
+			);
+			path = "Mystery boxUITests";
+			sourceTree = "<group>";
+		};
+		63279FBC2BDD26B60091CF92 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				63279FC42BDD62FA0091CF92 /* Json Lottie */,
+				63279FB02BDD21970091CF92 /* LottieView.swift */,
+				63279FBA2BDD23AB0091CF92 /* TryLottie.swift */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		63279FC42BDD62FA0091CF92 /* Json Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				6350B9172BE340070080419A /* dragGesture.json */,
+				6350B9152BE33FB40080419A /* tiltGesture.json */,
+				6350B9112BE334120080419A /* LongPressSlowed2.json */,
+				63279FBD2BDD2B390091CF92 /* star.json */,
+			);
+			path = "Json Lottie";
+			sourceTree = "<group>";
+		};
+		634538EE2BDF594B0069CBD9 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				63C9E1C42BE09FF3005F2836 /* lucky.mp3 */,
+				637614422BDFE3CB00DC4DC3 /* slowMusic.mp3 */,
+				637614402BDFE29400DC4DC3 /* unlucky.mp3 */,
+				6376143E2BDFE1CF00DC4DC3 /* gameSound.mp3 */,
+				634538EC2BDF59420069CBD9 /* sample.mp3 */,
+				634538EA2BDF57C20069CBD9 /* SoundManager.swift */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		635F06052BDA9C24002F3A30 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				63C6422D2BDA8B440096A371 /* GlobalLogic.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		6368186D2BDA9B7A007963E2 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				6318704C2BD7F6CE00AEC68C /* Foot Step.swift */,
+				639FD4792BDC071E002EF927 /* Money Pocket.swift */,
+				631A2E682BD6B59D0020ADC6 /* Park Bench.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		6378FC0E2BDEAD0C00D3BC12 /* Home, Result, Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				631621AB2BDE2BBA00857865 /* OverlayStage.swift */,
+				638AE8582BDB549800741E51 /* gameOver.swift */,
+				6378FC0F2BDEAD8E00D3BC12 /* MainView.swift */,
+			);
+			path = "Home, Result, Overlay";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		631A2E622BD6B59D0020ADC6 /* Mystery box */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631A2E892BD6B59E0020ADC6 /* Build configuration list for PBXNativeTarget "Mystery box" */;
+			buildPhases = (
+				631A2E5F2BD6B59D0020ADC6 /* Sources */,
+				631A2E602BD6B59D0020ADC6 /* Frameworks */,
+				631A2E612BD6B59D0020ADC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mystery box";
+			packageProductDependencies = (
+				63279FB82BDD23700091CF92 /* Lottie */,
+			);
+			productName = "Mystery box";
+			productReference = 631A2E632BD6B59D0020ADC6 /* Lucky Meter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		631A2E742BD6B59E0020ADC6 /* Mystery boxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631A2E8C2BD6B59E0020ADC6 /* Build configuration list for PBXNativeTarget "Mystery boxTests" */;
+			buildPhases = (
+				631A2E712BD6B59E0020ADC6 /* Sources */,
+				631A2E722BD6B59E0020ADC6 /* Frameworks */,
+				631A2E732BD6B59E0020ADC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				631A2E772BD6B59E0020ADC6 /* PBXTargetDependency */,
+			);
+			name = "Mystery boxTests";
+			productName = "Mystery boxTests";
+			productReference = 631A2E752BD6B59E0020ADC6 /* Mystery boxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		631A2E7E2BD6B59E0020ADC6 /* Mystery boxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631A2E8F2BD6B59E0020ADC6 /* Build configuration list for PBXNativeTarget "Mystery boxUITests" */;
+			buildPhases = (
+				631A2E7B2BD6B59E0020ADC6 /* Sources */,
+				631A2E7C2BD6B59E0020ADC6 /* Frameworks */,
+				631A2E7D2BD6B59E0020ADC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				631A2E812BD6B59E0020ADC6 /* PBXTargetDependency */,
+			);
+			name = "Mystery boxUITests";
+			productName = "Mystery boxUITests";
+			productReference = 631A2E7F2BD6B59E0020ADC6 /* Mystery boxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		631A2E5B2BD6B59D0020ADC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					631A2E622BD6B59D0020ADC6 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					631A2E742BD6B59E0020ADC6 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 631A2E622BD6B59D0020ADC6;
+					};
+					631A2E7E2BD6B59E0020ADC6 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 631A2E622BD6B59D0020ADC6;
+					};
+				};
+			};
+			buildConfigurationList = 631A2E5E2BD6B59D0020ADC6 /* Build configuration list for PBXProject "Mystery box" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 631A2E5A2BD6B59D0020ADC6;
+			packageReferences = (
+				63279FB72BDD23700091CF92 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 631A2E642BD6B59D0020ADC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				631A2E622BD6B59D0020ADC6 /* Mystery box */,
+				631A2E742BD6B59E0020ADC6 /* Mystery boxTests */,
+				631A2E7E2BD6B59E0020ADC6 /* Mystery boxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		631A2E612BD6B59D0020ADC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631A2E702BD6B59E0020ADC6 /* Preview Assets.xcassets in Resources */,
+				6350B9122BE334120080419A /* LongPressSlowed2.json in Resources */,
+				63C9E1C52BE09FF3005F2836 /* lucky.mp3 in Resources */,
+				6376143F2BDFE1CF00DC4DC3 /* gameSound.mp3 in Resources */,
+				637614432BDFE3CB00DC4DC3 /* slowMusic.mp3 in Resources */,
+				6350B9182BE340070080419A /* dragGesture.json in Resources */,
+				637614412BDFE29400DC4DC3 /* unlucky.mp3 in Resources */,
+				6350B9162BE33FB40080419A /* tiltGesture.json in Resources */,
+				634538ED2BDF59420069CBD9 /* sample.mp3 in Resources */,
+				63279FBE2BDD2B390091CF92 /* star.json in Resources */,
+				631A2E6D2BD6B59E0020ADC6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631A2E732BD6B59E0020ADC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631A2E7D2BD6B59E0020ADC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		631A2E5F2BD6B59D0020ADC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639FD47A2BDC071E002EF927 /* Money Pocket.swift in Sources */,
+				6378FC102BDEAD8E00D3BC12 /* MainView.swift in Sources */,
+				6318704D2BD7F6CE00AEC68C /* Foot Step.swift in Sources */,
+				6368186C2BDA8F4A007963E2 /* ContentView.swift in Sources */,
+				63279FBB2BDD23AB0091CF92 /* TryLottie.swift in Sources */,
+				634538EB2BDF57C20069CBD9 /* SoundManager.swift in Sources */,
+				631A2E692BD6B59D0020ADC6 /* Park Bench.swift in Sources */,
+				631621AC2BDE2BBA00857865 /* OverlayStage.swift in Sources */,
+				631A2E672BD6B59D0020ADC6 /* Mystery_boxApp.swift in Sources */,
+				63C6422E2BDA8B440096A371 /* GlobalLogic.swift in Sources */,
+				638AE8592BDB549800741E51 /* gameOver.swift in Sources */,
+				63279FB12BDD21970091CF92 /* LottieView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631A2E712BD6B59E0020ADC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631A2E7A2BD6B59E0020ADC6 /* Mystery_boxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631A2E7B2BD6B59E0020ADC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631A2E862BD6B59E0020ADC6 /* Mystery_boxUITestsLaunchTests.swift in Sources */,
+				631A2E842BD6B59E0020ADC6 /* Mystery_boxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		631A2E772BD6B59E0020ADC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 631A2E622BD6B59D0020ADC6 /* Mystery box */;
+			targetProxy = 631A2E762BD6B59E0020ADC6 /* PBXContainerItemProxy */;
+		};
+		631A2E812BD6B59E0020ADC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 631A2E622BD6B59D0020ADC6 /* Mystery box */;
+			targetProxy = 631A2E802BD6B59E0020ADC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		631A2E872BD6B59E0020ADC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		631A2E882BD6B59E0020ADC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		631A2E8A2BD6B59E0020ADC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mystery box/Preview Content\"";
+				DEVELOPMENT_TEAM = UC6TG39XPP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "none.Mystery-box";
+				PRODUCT_NAME = "Lucky Meter";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		631A2E8B2BD6B59E0020ADC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mystery box/Preview Content\"";
+				DEVELOPMENT_TEAM = UC6TG39XPP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "none.Mystery-box";
+				PRODUCT_NAME = "Lucky Meter";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		631A2E8D2BD6B59E0020ADC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC6TG39XPP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "none.Mystery-boxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mystery box.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mystery box";
+			};
+			name = Debug;
+		};
+		631A2E8E2BD6B59E0020ADC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC6TG39XPP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "none.Mystery-boxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mystery box.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mystery box";
+			};
+			name = Release;
+		};
+		631A2E902BD6B59E0020ADC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC6TG39XPP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "none.Mystery-boxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mystery box";
+			};
+			name = Debug;
+		};
+		631A2E912BD6B59E0020ADC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC6TG39XPP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "none.Mystery-boxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mystery box";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		631A2E5E2BD6B59D0020ADC6 /* Build configuration list for PBXProject "Mystery box" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631A2E872BD6B59E0020ADC6 /* Debug */,
+				631A2E882BD6B59E0020ADC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		631A2E892BD6B59E0020ADC6 /* Build configuration list for PBXNativeTarget "Mystery box" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631A2E8A2BD6B59E0020ADC6 /* Debug */,
+				631A2E8B2BD6B59E0020ADC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		631A2E8C2BD6B59E0020ADC6 /* Build configuration list for PBXNativeTarget "Mystery boxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631A2E8D2BD6B59E0020ADC6 /* Debug */,
+				631A2E8E2BD6B59E0020ADC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		631A2E8F2BD6B59E0020ADC6 /* Build configuration list for PBXNativeTarget "Mystery boxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631A2E902BD6B59E0020ADC6 /* Debug */,
+				631A2E912BD6B59E0020ADC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		63279FB72BDD23700091CF92 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 3.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		63279FB82BDD23700091CF92 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63279FB72BDD23700091CF92 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 631A2E5B2BD6B59D0020ADC6 /* Project object */;
+}
