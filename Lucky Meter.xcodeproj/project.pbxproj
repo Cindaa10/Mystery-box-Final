@@ -61,9 +61,9 @@
 		631A2E682BD6B59D0020ADC6 /* Park Bench.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Park Bench.swift"; sourceTree = "<group>"; };
 		631A2E6C2BD6B59E0020ADC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		631A2E6F2BD6B59E0020ADC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		631A2E752BD6B59E0020ADC6 /* Mystery boxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mystery boxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		631A2E752BD6B59E0020ADC6 /* Lucky MeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lucky MeterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		631A2E792BD6B59E0020ADC6 /* Mystery_boxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mystery_boxTests.swift; sourceTree = "<group>"; };
-		631A2E7F2BD6B59E0020ADC6 /* Mystery boxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mystery boxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		631A2E7F2BD6B59E0020ADC6 /* Lucky MeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lucky MeterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		631A2E832BD6B59E0020ADC6 /* Mystery_boxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mystery_boxUITests.swift; sourceTree = "<group>"; };
 		631A2E852BD6B59E0020ADC6 /* Mystery_boxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mystery_boxUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		63279FB02BDD21970091CF92 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
@@ -125,8 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				631A2E632BD6B59D0020ADC6 /* Lucky Meter.app */,
-				631A2E752BD6B59E0020ADC6 /* Mystery boxTests.xctest */,
-				631A2E7F2BD6B59E0020ADC6 /* Mystery boxUITests.xctest */,
+				631A2E752BD6B59E0020ADC6 /* Lucky MeterTests.xctest */,
+				631A2E7F2BD6B59E0020ADC6 /* Lucky MeterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -237,9 +237,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		631A2E622BD6B59D0020ADC6 /* Mystery box */ = {
+		631A2E622BD6B59D0020ADC6 /* Lucky Meter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 631A2E892BD6B59E0020ADC6 /* Build configuration list for PBXNativeTarget "Mystery box" */;
+			buildConfigurationList = 631A2E892BD6B59E0020ADC6 /* Build configuration list for PBXNativeTarget "Lucky Meter" */;
 			buildPhases = (
 				631A2E5F2BD6B59D0020ADC6 /* Sources */,
 				631A2E602BD6B59D0020ADC6 /* Frameworks */,
@@ -249,7 +249,7 @@
 			);
 			dependencies = (
 			);
-			name = "Mystery box";
+			name = "Lucky Meter";
 			packageProductDependencies = (
 				63279FB82BDD23700091CF92 /* Lottie */,
 			);
@@ -257,9 +257,9 @@
 			productReference = 631A2E632BD6B59D0020ADC6 /* Lucky Meter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		631A2E742BD6B59E0020ADC6 /* Mystery boxTests */ = {
+		631A2E742BD6B59E0020ADC6 /* Lucky MeterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 631A2E8C2BD6B59E0020ADC6 /* Build configuration list for PBXNativeTarget "Mystery boxTests" */;
+			buildConfigurationList = 631A2E8C2BD6B59E0020ADC6 /* Build configuration list for PBXNativeTarget "Lucky MeterTests" */;
 			buildPhases = (
 				631A2E712BD6B59E0020ADC6 /* Sources */,
 				631A2E722BD6B59E0020ADC6 /* Frameworks */,
@@ -270,14 +270,14 @@
 			dependencies = (
 				631A2E772BD6B59E0020ADC6 /* PBXTargetDependency */,
 			);
-			name = "Mystery boxTests";
+			name = "Lucky MeterTests";
 			productName = "Mystery boxTests";
-			productReference = 631A2E752BD6B59E0020ADC6 /* Mystery boxTests.xctest */;
+			productReference = 631A2E752BD6B59E0020ADC6 /* Lucky MeterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		631A2E7E2BD6B59E0020ADC6 /* Mystery boxUITests */ = {
+		631A2E7E2BD6B59E0020ADC6 /* Lucky MeterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 631A2E8F2BD6B59E0020ADC6 /* Build configuration list for PBXNativeTarget "Mystery boxUITests" */;
+			buildConfigurationList = 631A2E8F2BD6B59E0020ADC6 /* Build configuration list for PBXNativeTarget "Lucky MeterUITests" */;
 			buildPhases = (
 				631A2E7B2BD6B59E0020ADC6 /* Sources */,
 				631A2E7C2BD6B59E0020ADC6 /* Frameworks */,
@@ -288,9 +288,9 @@
 			dependencies = (
 				631A2E812BD6B59E0020ADC6 /* PBXTargetDependency */,
 			);
-			name = "Mystery boxUITests";
+			name = "Lucky MeterUITests";
 			productName = "Mystery boxUITests";
-			productReference = 631A2E7F2BD6B59E0020ADC6 /* Mystery boxUITests.xctest */;
+			productReference = 631A2E7F2BD6B59E0020ADC6 /* Lucky MeterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -316,7 +316,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 631A2E5E2BD6B59D0020ADC6 /* Build configuration list for PBXProject "Mystery box" */;
+			buildConfigurationList = 631A2E5E2BD6B59D0020ADC6 /* Build configuration list for PBXProject "Lucky Meter" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -332,9 +332,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				631A2E622BD6B59D0020ADC6 /* Mystery box */,
-				631A2E742BD6B59E0020ADC6 /* Mystery boxTests */,
-				631A2E7E2BD6B59E0020ADC6 /* Mystery boxUITests */,
+				631A2E622BD6B59D0020ADC6 /* Lucky Meter */,
+				631A2E742BD6B59E0020ADC6 /* Lucky MeterTests */,
+				631A2E7E2BD6B59E0020ADC6 /* Lucky MeterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -416,12 +416,12 @@
 /* Begin PBXTargetDependency section */
 		631A2E772BD6B59E0020ADC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 631A2E622BD6B59D0020ADC6 /* Mystery box */;
+			target = 631A2E622BD6B59D0020ADC6 /* Lucky Meter */;
 			targetProxy = 631A2E762BD6B59E0020ADC6 /* PBXContainerItemProxy */;
 		};
 		631A2E812BD6B59E0020ADC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 631A2E622BD6B59D0020ADC6 /* Mystery box */;
+			target = 631A2E622BD6B59D0020ADC6 /* Lucky Meter */;
 			targetProxy = 631A2E802BD6B59E0020ADC6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -622,7 +622,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mystery box.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mystery box";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lucky Meter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lucky Meter";
 			};
 			name = Debug;
 		};
@@ -642,7 +642,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mystery box.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mystery box";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lucky Meter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lucky Meter";
 			};
 			name = Release;
 		};
@@ -685,7 +685,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		631A2E5E2BD6B59D0020ADC6 /* Build configuration list for PBXProject "Mystery box" */ = {
+		631A2E5E2BD6B59D0020ADC6 /* Build configuration list for PBXProject "Lucky Meter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				631A2E872BD6B59E0020ADC6 /* Debug */,
@@ -694,7 +694,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		631A2E892BD6B59E0020ADC6 /* Build configuration list for PBXNativeTarget "Mystery box" */ = {
+		631A2E892BD6B59E0020ADC6 /* Build configuration list for PBXNativeTarget "Lucky Meter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				631A2E8A2BD6B59E0020ADC6 /* Debug */,
@@ -703,7 +703,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		631A2E8C2BD6B59E0020ADC6 /* Build configuration list for PBXNativeTarget "Mystery boxTests" */ = {
+		631A2E8C2BD6B59E0020ADC6 /* Build configuration list for PBXNativeTarget "Lucky MeterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				631A2E8D2BD6B59E0020ADC6 /* Debug */,
@@ -712,7 +712,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		631A2E8F2BD6B59E0020ADC6 /* Build configuration list for PBXNativeTarget "Mystery boxUITests" */ = {
+		631A2E8F2BD6B59E0020ADC6 /* Build configuration list for PBXNativeTarget "Lucky MeterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				631A2E902BD6B59E0020ADC6 /* Debug */,
